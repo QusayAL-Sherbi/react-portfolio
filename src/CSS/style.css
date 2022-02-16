@@ -81,7 +81,7 @@ section .row {
 .carousel {
   position: relative;
   min-height: 100vh;
-  background-image: url("../assets/Carousel-Pics/programmer.jpeg");
+  background-image: url("/public/assets/Carousel-Pics/programmer.jpeg");
   background-position: center;
 }
 
@@ -272,7 +272,7 @@ section .row {
 }
 
 .skill-logo img {
-  width: 100%;
+  width: 50%;
 }
 
 .skills-section .skill-box .skill-name {
@@ -340,7 +340,28 @@ section .row {
   }
 }
 
-/* Testimonials Section Rules */
+/* Contact Section */
+.contact-section form {
+  width: 50%;
+  margin: auto;
+}
+
+.contact-section form input[type="submit"] {
+  display: block;
+  width: 100%;
+}
+
+.contact-section form textarea {
+  resize: none;
+  height: 300px;
+}
+
+@media (max-width: 767px) {
+  .contact-section form {
+    width: 73%;
+  }
+}
+
 .testim-section h2 {
   font-size: 2rem;
   font-weight: bold;
@@ -386,28 +407,6 @@ section .row {
   }
   .testim-section .testim-content .testim-box {
     width: 100%;
-  }
-}
-
-/* Contact Section */
-.contact-section form {
-  width: 50%;
-  margin: auto;
-}
-
-.contact-section form input[type="submit"] {
-  display: block;
-  width: 100%;
-}
-
-.contact-section form textarea {
-  resize: none;
-  height: 300px;
-}
-
-@media (max-width: 767px) {
-  .contact-section form {
-    width: 73%;
   }
 }
 

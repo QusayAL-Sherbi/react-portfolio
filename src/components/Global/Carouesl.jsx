@@ -6,7 +6,7 @@ const Carousel = () => {
       <div class="overlay"></div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          {/* <img src="assets/programmer.jpeg" class="d-block w-100" alt="" /> */}
+          <img src="./assets/programmer.jpeg" class="d-block w-100" alt="" />
         </div>
       </div>
     </div>

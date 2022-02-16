@@ -8,7 +8,7 @@ const About = () => {
         <div className="row">
           <div className="col-md-3">
             <div className="img-container">
-              {/* <img src="./assets/Carousel-Pics/QusayAL-Sherbi.jpg" alt="Qusay AL-Sherbi Picture" /> */}
+              <img src="./assets/Carousel-Pics/QusayAL-Sherbi-cropped.jpg" alt="" />
             </div>
           </div>
           <div className="col-md-9">
